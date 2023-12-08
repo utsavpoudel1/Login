@@ -1,0 +1,115 @@
+body{
+  margin: 0px;
+  margin-top: -10px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: 'Lato' sans-serif;
+  font-weight: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#555;
+  background: #ecf0f3;
+}
+.login-div{
+  width: 300px;
+  height: 450px;
+  padding: 60px 35px 35px 35px;
+  border-radius:40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1,
+             -13px -13px 20px #ffffff;
+}
+.logo{
+  background: url("images.png");
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin:0px auto;
+  box-shadow: 
+  1px 1px 5px #5f5f5f,
+  1px 1px 5px #ecf0f0,
+  8px 8px 15px #a7aaaf,
+  -08px -08px 15px #ffffff;
+  
+}
+.title{
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+  letter-spacing: 0.5px;
+  
+}
+.subtitle{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 7px;
+  letter-spacing: 3px;
+} 
+.fields{
+  width: 100%;
+  padding: 75px 5px 5px 5px ;
+}
+.field input
+{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 20px 10px 20px 5px;
+}
+.username , .password
+{
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+              inset -8px -8px 8px #ffffff ;
+}
+.field svg 
+{
+  height: 20px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-right: -5px;
+}
+.signin-button{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700px;
+  font-family: 'lato', sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #24cfaa;
+  box-shadow: 3px 3px 3px #b1b1b1
+              -3px -3px 3px #ffffff
+  ;
+  transition: 0.5s;
+  
+}
+.signin-button:hover{
+  background: #2fdbb6;
+  outline: none;
+}
+.signin-button:active{
+  background: #1da88a;
+  outline: none;
+  
+}
+.link{
+  padding-top: 20px;
+  text-align: center;
+}
+.link a 
+{
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+}
